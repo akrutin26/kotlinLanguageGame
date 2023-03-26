@@ -12,6 +12,12 @@
         android:theme="@style/Theme.CW"
         tools:targetApi="31">
         <activity
+            android:name=".HelpingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TechnicalActivity"
+            android:exported="false" />
+        <activity
             android:name=".RatingTableActivity"
             android:exported="false" />
         <activity
@@ -19,7 +25,7 @@
             android:exported="false" />
         <activity
             android:name=".EverydayLanguageActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".AlphabetActivity"
             android:exported="false" />
