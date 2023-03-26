@@ -25,7 +25,8 @@
         android:text="Здесь будут слова, транскрипции и значения"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="75dp"
-        android:textColor="#153626"/>
+        android:textColor="#153626"
+        android:gravity="center"/>
 
     <Button
         android:layout_width="wrap_content"
