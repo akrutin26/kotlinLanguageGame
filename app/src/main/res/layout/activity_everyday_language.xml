@@ -20,23 +20,23 @@
 
     <TextView
         android:id="@+id/textWordsList"
-        android:layout_width="411dp"
-        android:layout_height="573dp"
+        android:layout_width="413dp"
+        android:layout_height="571dp"
         android:text="Здесь будут слова, транскрипции и значения"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="75dp"
-        android:textColor="#153626"/>
+        android:textColor="#153626"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="75dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#ADCBB5"
         android:gravity="center"
         android:text="Перейти к тесту для проверки знаний"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textWordsList"
-        android:backgroundTint="#ADCBB5"
         android:textColor="#153626"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textWordsList" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

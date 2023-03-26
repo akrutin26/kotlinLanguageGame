@@ -12,7 +12,6 @@
         android:theme="@style/Theme.CW"
         tools:targetApi="31">
         <activity
-<<<<<<< Updated upstream
             android:name=".RatingTableActivity"
             android:exported="false" />
         <activity
@@ -20,9 +19,9 @@
             android:exported="false" />
         <activity
             android:name=".EverydayLanguageActivity"
-=======
+            android:exported="false"/>
+        <activity
             android:name=".AlphabetActivity"
->>>>>>> Stashed changes
             android:exported="false" />
         <activity
             android:name=".FirstTimeActivity"
