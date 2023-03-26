@@ -44,6 +44,7 @@
         android:textColor="#153626"
         android:textSize="18sp">
     </Button>
+
     <Button
         android:layout_width="245dp"
         android:layout_height="65dp"
@@ -54,6 +55,7 @@
         android:textColor="#153626"
         android:textSize="18sp">
     </Button>
+
     <Button
         android:layout_width="245dp"
         android:layout_height="65dp"
