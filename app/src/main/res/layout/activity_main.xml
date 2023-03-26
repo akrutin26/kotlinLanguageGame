@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#7CC398">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_foreground">
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Название приложения"
+            android:textSize="30sp"
+            android:padding="20dp"
+            android:textColor="#153626">
+        </TextView>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добро пожаловать, <userName>"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#153626">
+    </TextView>
+    <Button
+        android:layout_width="245dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#ADCBB5"
+        android:text="Изучение алфавита"
+        android:textAllCaps="false"
+        android:textColor="#153626"
+        android:textSize="18sp">
+    </Button>
+    <Button
+        android:layout_width="245dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#ADCBB5"
+        android:text="Разговорный русский"
+        android:textAllCaps="false"
+        android:textColor="#153626"
+        android:textSize="18sp">
+    </Button>
+    <Button
+        android:layout_width="245dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:text="Технический русский"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:backgroundTint="#ADCBB5"
+        android:textColor="#153626">
+    </Button>
+    <Button
+        android:layout_width="245dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:text="Словарь сленга"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:backgroundTint="#ADCBB5"
+        android:textColor="#153626">
+    </Button>
+    <Button
+        android:layout_width="245dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:text="Памятки"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:backgroundTint="#ADCBB5"
+        android:textColor="#153626">
+    </Button>
+    <Button
+        android:layout_width="245dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:text="Рейтинг"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:backgroundTint="#ADCBB5"
+        android:textColor="#153626">
+    </Button>
+</LinearLayout>
