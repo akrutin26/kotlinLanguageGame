@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EverydayLanguageActivity"
+    android:background="#7CC398">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="СЛОВАРЬ СЛЕНГОВОЙ РЕЧИ"
+        android:textSize="32sp"
+        android:textColor="#153626"
+        android:gravity="center"
+        android:background="#62A77C"
+        />
+
+    <TextView
+        android:id="@+id/textWordsList"
+        android:layout_width="411dp"
+        android:layout_height="573dp"
+        android:text="Здесь будут слова, транскрипции и значения"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="75dp"
+        android:textColor="#153626"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Перейти к тесту для проверки знаний"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textWordsList"
+        android:backgroundTint="#ADCBB5"
+        android:textColor="#153626"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
