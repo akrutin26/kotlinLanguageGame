@@ -6,10 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AlphabetActivity"
-    android:background="#7CC398">
+    android:background="#7CC398"
+    android:orientation="vertical">
     <TableLayout
         android:layout_height="wrap_content"
-        android:layout_width="match_parent">
+        android:layout_width="match_parent"
+        android:padding="20dp">
         <TableRow>
             <TextView
                 android:text="Aа"
@@ -255,7 +257,30 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="A"
-        >
+        android:text="Aа"
+        android:textSize="70sp"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp">
     </TextView>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#ADCBB5"
+        android:text="Пройти тест"
+        android:textColor="#153626"
+        android:textSize="20sp"
+        android:textAllCaps="false">
+    </Button>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#ADCBB5"
+        android:text="Вернуться на главную"
+        android:textColor="#153626"
+        android:textSize="20sp"
+        android:textAllCaps="false">
+    </Button>
 </LinearLayout>
